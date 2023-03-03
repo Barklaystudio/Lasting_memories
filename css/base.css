@@ -1,0 +1,77 @@
+.maketforfigma{
+    flex: 0 0 auto;
+    background: #313a46;
+    font-weight: bold;
+    display: flex;
+}
+.maketforfigma img{
+    border-radius: 10px;
+    margin: 4px 0 0 4px;
+}
+.maketforfigma p {
+    color: #98a6ad;
+    text-decoration: none;
+    letter-spacing: .01875rem;
+    font-size: .775rem;
+    padding: 0 10px;
+    line-height: 0.70rem;
+}
+.maketforfigma p > a {
+    color: #bbe4f0;
+    font-weight: bold;
+}
+.maketforfigma p > a:hover {
+    color: #ffffff
+}
+
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body .main{
+    flex: 1 0 auto;
+    background: url('/img/promo-bg.jpg') no-repeat center 50%/cover;
+    height: 800px;
+    /* width: 1200px; */
+}
+body .main .menu {
+    padding-left: 277px;
+    padding-right: 189px;
+    padding-top: 45px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+body .main .menu li {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    list-style-type: none;
+    
+}
+body .main .menu li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 68px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    margin-top: 224px;
+}
+h1 span {
+    margin-right: 27px;
+}
